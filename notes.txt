@@ -1,0 +1,6 @@
+$ docker login --username Richardbmk --password you_password_token ghcr.io
+$ docker build - -t ghcr.io/richardbmk/test-ghcr:latest
+$ docker push ghcr.io/richardbmk/test-ghcr:latest
+
+$ docker images ls 
+$ docker run ghcr.io/richardbmk/test-ghcr:latest
